@@ -1,0 +1,2 @@
+C:\Users\parkj\source\repos\나도코딩C언어\Debug\나도코딩C언어.exe
+C:\Users\parkj\source\repos\나도코딩C언어\Debug\나도코딩C언어.pdb
