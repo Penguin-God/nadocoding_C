@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void) {
+int main_printfscanf(void) {
 	// 정수형 변수
 	int age = 12;		 // css식 주석도 가능 /* code */    
 	printf("%d\n", age); // %d : %d 위치에 정수값을 출력하겠다는 의미 , 뒤에 정수값을 적으면 됨  \n : 줄바꿈
