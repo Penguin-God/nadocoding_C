@@ -28,21 +28,15 @@ int main(void) {
 	}*/
 
 
-	/*
-	    *
-	   **
-	  ***
-	 ****
-	***** 만들기
-	*/
-	int inputmanager;
-	scanf_s("%d", &inputmanager);
-	for (int i = 1; i <= inputmanager; i++) {
-		for (int a = inputmanager; a >= i; a--) {
-			printf(" ");
+	// 층 입력시 입력한 층만큼 피라미드 쌓기
+	int floor;
+	scanf_s("%d", &floor);
+	for (int i = 1; i <= floor*2; i += 2) {
+		for (int a = 0; a < (floor-1) - ((i-1)/2); a++) {
+			printf(" "); // a의 조건값이 반복문을 한번 돌때마다 1씩 떨어짐 
 		}
 		for (int k = 0; k < i; k++) {
-			printf("*");
+			printf("*"); // 맨위에서 i++를 하고 k의 조건을 i * 2 + 1로 하는 방법도 있음
 		}
 		printf(" \n");
 	}
