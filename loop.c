@@ -1,6 +1,6 @@
 #include <stdio.h>
 // 하나의 프로젝트에 여러개의 main함수가 있으면 빌드가 안됨
-int main(void) {
+int main_loop(void) {
 	int a = 10;
 	// ++은 b = b + 1이므로 선언하지 않은것처럼 보여도 값이 변함
 	printf("a는 %d\n", ++a); // 11 코드가 실행되기 전에 1을 더해서 11이 출력

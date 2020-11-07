@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Condition.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="printf_scanf.c" />
   </ItemGroup>
