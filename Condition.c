@@ -65,6 +65,7 @@ int main_condition(void) {
 			printf("\n마지막이니까 생각좀 하고 선택하라구~~~\n");
 		else
 			printf("\n기회가 %d번 남았다 이생끼야\n", i);
+
 		int 입력값;
 		scanf_s("%d", &입력값);
 		if (입력값 == RandomNumber) {

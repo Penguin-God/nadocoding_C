@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Condition.c" />
     <ClCompile Include="function.c" />
+    <ClCompile Include="function_project.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="printf_scanf.c" />
   </ItemGroup>

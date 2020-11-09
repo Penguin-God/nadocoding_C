@@ -7,9 +7,9 @@ int subtrack(int num, int subValue);
 int multiply(int num, int mulValue);
 int division(int num, int divValue);
 
-int main(void) {
-	//printInt(intFunction(4124));
-	//printInt(add(33, 1252));
+int main_function(void) {
+	printInt(intFunction(4124));
+	printInt(add(33, 1252));
 
 	return 0;
 }
