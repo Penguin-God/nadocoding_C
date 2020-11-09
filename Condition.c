@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h> // rand() 함수를 쓰기위한 2줄
 #include <stdlib.h>
-int main(void) {
+int main_condition(void) {
 	// break and continue
 	// 1~5번까지 엎드리기 근데 3번은 아파서 빼줌 나머지는 집감
 	/*for (int i = 1; i < 31; i++) {
