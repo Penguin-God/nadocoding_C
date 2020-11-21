@@ -7,7 +7,7 @@ void showQuestion(int step, int num1, int num2);
 void Success(int step);
 void Fail(int count);
 
-int main(void) { // 단계에 따라 어려운 랜덤한 곱하기가 나오면 곱하기 문제 풀면 됨  
+int main_function_project(void) { // 단계에 따라 어려운 랜덤한 곱하기가 나오면 곱하기 문제 풀면 됨  
 	int count = 0; // 맞힌 개수
 	srand(time(NULL));
 	for (int i = 1; i <= 5; i++) {
