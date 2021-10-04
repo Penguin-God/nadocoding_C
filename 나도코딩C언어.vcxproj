@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="array.c" />
+    <ClCompile Include="array_project.c" />
     <ClCompile Include="Condition.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="function_project.c" />

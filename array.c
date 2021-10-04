@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_array(void) {
 	// 배열값은 반드시 초기화를 해야함
 	/* int subway[3]; // 3개의 int형 변수를 가진 배열
 	subway[0] = 10;

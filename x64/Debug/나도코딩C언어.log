@@ -1,2 +1,4 @@
-﻿  array.c
+﻿  array_project.c
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\array_project.c(16,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\array_project.c(21,19): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   나도코딩C언어.vcxproj -> C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\x64\Debug\나도코딩C언어.exe
