@@ -6,7 +6,7 @@ void GetUseTreatment(int answer);
 int GetUserAnswer();
 void CheckUserAnswer(int realAnswer, int userAnswer);
 
-int main(void) {
+int main_array_project(void) {
 	/*
 	게임 룰
 	5개의 발모제 중 하나만 찐
