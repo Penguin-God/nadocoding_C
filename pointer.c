@@ -3,7 +3,7 @@ void Swap(int a, int b);
 void Swap_Address(int* a, int* b);
 void ArraySwap(int* ptr);
 
-int main(void) {
+int main_pointer(void) {
 	// Æ÷ÀÎÅÍ
 
 	/*

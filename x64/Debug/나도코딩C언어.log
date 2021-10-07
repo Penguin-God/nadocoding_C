@@ -3,8 +3,11 @@ C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(103
 C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(103,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int *' 형식)과(와) 충돌합니다.
 C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(103,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
 C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(103,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 2('int *' 형식)과(와) 충돌합니다.
-C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(126,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(126,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int *' 형식)과(와) 충돌합니다.
-C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(126,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
-C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(126,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 2('int *' 형식)과(와) 충돌합니다.
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(129,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(129,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int *' 형식)과(와) 충돌합니다.
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(129,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(129,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 2('int *' 형식)과(와) 충돌합니다.
+  pointer_project.c
+  코드를 생성하고 있습니다...
+C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\pointer.c(122): warning C4716: 'main_pointer': 값을 반환해야 합니다.
   나도코딩C언어.vcxproj -> C:\Users\parkj\Desktop\프로그래밍\C언어\나도코딩C언어\x64\Debug\나도코딩C언어.exe
