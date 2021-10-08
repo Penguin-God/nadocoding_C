@@ -21,8 +21,25 @@ int main(void) {
 	cursor = arr_Fishs;
 
 	start_Time = clock(); // 현재 시간을 milli second (1000분의 1초)로 반환
+	while (1) {
+		int previous_total_elapesd_time = total_elapesd_time;
+		ShowFishsStatus();
+		printf("몇 번 어항에 물을 주시겠습니까?");
+		scanf_s("%d", &getNum);
 
-	ShowFishsStatus();
+		if (getNum > 6 || getNum < 1) {
+			printf("입력값이 잘못돼었습니다.\n");
+			continue;
+		}
+
+		total_elapesd_time = (clock() - start_Time) / CLOCKS_PER_SEC;
+		printf("총 경과 시간 : %d초\n", total_elapesd_time);
+
+		
+		// 직전 물 준 시간(마지막으로 물 준 시간 이후 흐른 시간)
+		previous_elapesd_time = total_elapesd_time - previous_total_elapesd_time;
+		printf("최근 경과 시간 : %d초\n", previous_elapesd_time);
+	}
 
 	return 0;
 }
