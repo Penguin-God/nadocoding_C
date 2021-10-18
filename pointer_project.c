@@ -15,7 +15,7 @@ int arr_Fishs_Daed[6] = { 0,0,0,0,0,0 };
 int* cursor;
 int isClear = 0;
 
-int main(void) {
+int main_pointer_project(void) {
 	long start_Time = 0;
 	// elapesd : °æ°ú
 	long total_elapesd_time = 0;
