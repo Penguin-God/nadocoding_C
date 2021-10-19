@@ -149,6 +149,7 @@
     <ClCompile Include="pointer.c" />
     <ClCompile Include="pointer_project.c" />
     <ClCompile Include="printf_scanf.c" />
+    <ClCompile Include="struct.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

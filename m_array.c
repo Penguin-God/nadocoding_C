@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_m_array(void) {
 
 	// 배열 형태
 	// int arr[3];
